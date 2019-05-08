@@ -1,7 +1,6 @@
 function flip() {
   return Math.random() >= 0.5;
 }
-var value;
 function randomNumber(n) {
   if(n < 0 || n > 9999999)
   	throw ("Your input must be grater than 0 and less than 1,000,000");
